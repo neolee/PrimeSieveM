@@ -9,6 +9,50 @@
 /* Begin PBXBuildFile section */
 		B50D692919753EE500A347DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B50D692719753EE500A347DA /* InfoPlist.strings */; };
 		B50D692D19753EE500A347DA /* PrimeSieveM.m in Sources */ = {isa = PBXBuildFile; fileRef = B50D692C19753EE500A347DA /* PrimeSieveM.m */; };
+		B50D697519753F9200A347DA /* bits.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D693519753F9200A347DA /* bits.hpp */; };
+		B50D697619753F9200A347DA /* Callback.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D693619753F9200A347DA /* Callback.hpp */; };
+		B50D697719753F9200A347DA /* callback_t.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D693719753F9200A347DA /* callback_t.hpp */; };
+		B50D697819753F9200A347DA /* cancel_callback.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D693819753F9200A347DA /* cancel_callback.hpp */; };
+		B50D697919753F9200A347DA /* config.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D693919753F9200A347DA /* config.hpp */; };
+		B50D697A19753F9200A347DA /* EratBig.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D693A19753F9200A347DA /* EratBig.hpp */; };
+		B50D697B19753F9200A347DA /* EratMedium.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D693B19753F9200A347DA /* EratMedium.hpp */; };
+		B50D697C19753F9200A347DA /* EratSmall.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D693C19753F9200A347DA /* EratSmall.hpp */; };
+		B50D697D19753F9200A347DA /* iterator.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D693D19753F9200A347DA /* iterator.hpp */; };
+		B50D697E19753F9200A347DA /* littleendian_cast.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D693E19753F9200A347DA /* littleendian_cast.hpp */; };
+		B50D697F19753F9200A347DA /* ParallelPrimeSieve-lock.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D693F19753F9200A347DA /* ParallelPrimeSieve-lock.hpp */; };
+		B50D698019753F9200A347DA /* ParallelPrimeSieve.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D694019753F9200A347DA /* ParallelPrimeSieve.hpp */; };
+		B50D698119753F9200A347DA /* pmath.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D694119753F9200A347DA /* pmath.hpp */; };
+		B50D698219753F9200A347DA /* PreSieve.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D694219753F9200A347DA /* PreSieve.hpp */; };
+		B50D698319753F9200A347DA /* PrimeFinder.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D694319753F9200A347DA /* PrimeFinder.hpp */; };
+		B50D698419753F9200A347DA /* PrimeGenerator.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D694419753F9200A347DA /* PrimeGenerator.hpp */; };
+		B50D698519753F9200A347DA /* PrimeSieve-lock.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D694519753F9200A347DA /* PrimeSieve-lock.hpp */; };
+		B50D698619753F9200A347DA /* PrimeSieve.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D694619753F9200A347DA /* PrimeSieve.hpp */; };
+		B50D698719753F9200A347DA /* primesieve_error.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D694719753F9200A347DA /* primesieve_error.hpp */; };
+		B50D698919753F9200A347DA /* PushBackPrimes.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D694919753F9200A347DA /* PushBackPrimes.hpp */; };
+		B50D698A19753F9200A347DA /* SieveOfEratosthenes-inline.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D694A19753F9200A347DA /* SieveOfEratosthenes-inline.hpp */; };
+		B50D698B19753F9200A347DA /* SieveOfEratosthenes.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D694B19753F9200A347DA /* SieveOfEratosthenes.hpp */; };
+		B50D698C19753F9200A347DA /* toString.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D694C19753F9200A347DA /* toString.hpp */; };
+		B50D698D19753F9200A347DA /* WheelFactorization.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D694D19753F9200A347DA /* WheelFactorization.hpp */; };
+		B50D698E19753F9200A347DA /* primesieve.h in Headers */ = {isa = PBXBuildFile; fileRef = B50D694E19753F9200A347DA /* primesieve.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B50D698F19753F9200A347DA /* primesieve.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B50D694F19753F9200A347DA /* primesieve.hpp */; };
+		B50D69A319753F9200A347DA /* EratBig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B50D696519753F9200A347DA /* EratBig.cpp */; };
+		B50D69A419753F9200A347DA /* EratMedium.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B50D696619753F9200A347DA /* EratMedium.cpp */; };
+		B50D69A519753F9200A347DA /* EratSmall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B50D696719753F9200A347DA /* EratSmall.cpp */; };
+		B50D69A619753F9200A347DA /* iterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B50D696819753F9200A347DA /* iterator.cpp */; };
+		B50D69A719753F9200A347DA /* ParallelPrimeSieve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B50D696919753F9200A347DA /* ParallelPrimeSieve.cpp */; };
+		B50D69A819753F9200A347DA /* popcount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B50D696A19753F9200A347DA /* popcount.cpp */; };
+		B50D69A919753F9200A347DA /* PreSieve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B50D696B19753F9200A347DA /* PreSieve.cpp */; };
+		B50D69AA19753F9200A347DA /* PrimeFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B50D696C19753F9200A347DA /* PrimeFinder.cpp */; };
+		B50D69AB19753F9200A347DA /* PrimeGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B50D696D19753F9200A347DA /* PrimeGenerator.cpp */; };
+		B50D69AC19753F9200A347DA /* primesieve-api-c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B50D696E19753F9200A347DA /* primesieve-api-c.cpp */; };
+		B50D69AD19753F9200A347DA /* primesieve-api.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B50D696F19753F9200A347DA /* primesieve-api.cpp */; };
+		B50D69AE19753F9200A347DA /* PrimeSieve-nthPrime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B50D697019753F9200A347DA /* PrimeSieve-nthPrime.cpp */; };
+		B50D69AF19753F9200A347DA /* PrimeSieve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B50D697119753F9200A347DA /* PrimeSieve.cpp */; };
+		B50D69B019753F9200A347DA /* primesieve_iterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B50D697219753F9200A347DA /* primesieve_iterator.cpp */; };
+		B50D69B119753F9200A347DA /* SieveOfEratosthenes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B50D697319753F9200A347DA /* SieveOfEratosthenes.cpp */; };
+		B50D69B219753F9200A347DA /* WheelFactorization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B50D697419753F9200A347DA /* WheelFactorization.cpp */; };
+		B50D6A171975614400A347DA /* primesieve_iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = B50D6A161975614400A347DA /* primesieve_iterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B50D6A1D1975628700A347DA /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B50D6A1C1975628700A347DA /* test.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +62,50 @@
 		B50D692A19753EE500A347DA /* PrimeSieveM-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrimeSieveM-Prefix.pch"; sourceTree = "<group>"; };
 		B50D692B19753EE500A347DA /* PrimeSieveM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrimeSieveM.h; sourceTree = "<group>"; };
 		B50D692C19753EE500A347DA /* PrimeSieveM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrimeSieveM.m; sourceTree = "<group>"; };
+		B50D693519753F9200A347DA /* bits.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = bits.hpp; sourceTree = "<group>"; };
+		B50D693619753F9200A347DA /* Callback.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Callback.hpp; sourceTree = "<group>"; };
+		B50D693719753F9200A347DA /* callback_t.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = callback_t.hpp; sourceTree = "<group>"; };
+		B50D693819753F9200A347DA /* cancel_callback.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cancel_callback.hpp; sourceTree = "<group>"; };
+		B50D693919753F9200A347DA /* config.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = config.hpp; sourceTree = "<group>"; };
+		B50D693A19753F9200A347DA /* EratBig.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EratBig.hpp; sourceTree = "<group>"; };
+		B50D693B19753F9200A347DA /* EratMedium.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EratMedium.hpp; sourceTree = "<group>"; };
+		B50D693C19753F9200A347DA /* EratSmall.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EratSmall.hpp; sourceTree = "<group>"; };
+		B50D693D19753F9200A347DA /* iterator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = iterator.hpp; sourceTree = "<group>"; };
+		B50D693E19753F9200A347DA /* littleendian_cast.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = littleendian_cast.hpp; sourceTree = "<group>"; };
+		B50D693F19753F9200A347DA /* ParallelPrimeSieve-lock.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "ParallelPrimeSieve-lock.hpp"; sourceTree = "<group>"; };
+		B50D694019753F9200A347DA /* ParallelPrimeSieve.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ParallelPrimeSieve.hpp; sourceTree = "<group>"; };
+		B50D694119753F9200A347DA /* pmath.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pmath.hpp; sourceTree = "<group>"; };
+		B50D694219753F9200A347DA /* PreSieve.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PreSieve.hpp; sourceTree = "<group>"; };
+		B50D694319753F9200A347DA /* PrimeFinder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PrimeFinder.hpp; sourceTree = "<group>"; };
+		B50D694419753F9200A347DA /* PrimeGenerator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PrimeGenerator.hpp; sourceTree = "<group>"; };
+		B50D694519753F9200A347DA /* PrimeSieve-lock.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "PrimeSieve-lock.hpp"; sourceTree = "<group>"; };
+		B50D694619753F9200A347DA /* PrimeSieve.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PrimeSieve.hpp; sourceTree = "<group>"; };
+		B50D694719753F9200A347DA /* primesieve_error.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = primesieve_error.hpp; sourceTree = "<group>"; };
+		B50D694919753F9200A347DA /* PushBackPrimes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PushBackPrimes.hpp; sourceTree = "<group>"; };
+		B50D694A19753F9200A347DA /* SieveOfEratosthenes-inline.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "SieveOfEratosthenes-inline.hpp"; sourceTree = "<group>"; };
+		B50D694B19753F9200A347DA /* SieveOfEratosthenes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SieveOfEratosthenes.hpp; sourceTree = "<group>"; };
+		B50D694C19753F9200A347DA /* toString.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = toString.hpp; sourceTree = "<group>"; };
+		B50D694D19753F9200A347DA /* WheelFactorization.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WheelFactorization.hpp; sourceTree = "<group>"; };
+		B50D694E19753F9200A347DA /* primesieve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = primesieve.h; sourceTree = "<group>"; };
+		B50D694F19753F9200A347DA /* primesieve.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = primesieve.hpp; sourceTree = "<group>"; };
+		B50D696519753F9200A347DA /* EratBig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EratBig.cpp; sourceTree = "<group>"; };
+		B50D696619753F9200A347DA /* EratMedium.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EratMedium.cpp; sourceTree = "<group>"; };
+		B50D696719753F9200A347DA /* EratSmall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EratSmall.cpp; sourceTree = "<group>"; };
+		B50D696819753F9200A347DA /* iterator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iterator.cpp; sourceTree = "<group>"; };
+		B50D696919753F9200A347DA /* ParallelPrimeSieve.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParallelPrimeSieve.cpp; sourceTree = "<group>"; };
+		B50D696A19753F9200A347DA /* popcount.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = popcount.cpp; sourceTree = "<group>"; };
+		B50D696B19753F9200A347DA /* PreSieve.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PreSieve.cpp; sourceTree = "<group>"; };
+		B50D696C19753F9200A347DA /* PrimeFinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrimeFinder.cpp; sourceTree = "<group>"; };
+		B50D696D19753F9200A347DA /* PrimeGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrimeGenerator.cpp; sourceTree = "<group>"; };
+		B50D696E19753F9200A347DA /* primesieve-api-c.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "primesieve-api-c.cpp"; sourceTree = "<group>"; };
+		B50D696F19753F9200A347DA /* primesieve-api.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "primesieve-api.cpp"; sourceTree = "<group>"; };
+		B50D697019753F9200A347DA /* PrimeSieve-nthPrime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "PrimeSieve-nthPrime.cpp"; sourceTree = "<group>"; };
+		B50D697119753F9200A347DA /* PrimeSieve.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrimeSieve.cpp; sourceTree = "<group>"; };
+		B50D697219753F9200A347DA /* primesieve_iterator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = primesieve_iterator.cpp; sourceTree = "<group>"; };
+		B50D697319753F9200A347DA /* SieveOfEratosthenes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SieveOfEratosthenes.cpp; sourceTree = "<group>"; };
+		B50D697419753F9200A347DA /* WheelFactorization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WheelFactorization.cpp; sourceTree = "<group>"; };
+		B50D6A161975614400A347DA /* primesieve_iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = primesieve_iterator.h; sourceTree = "<group>"; };
+		B50D6A1C1975628700A347DA /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +122,8 @@
 		B50D691719753EE500A347DA = {
 			isa = PBXGroup;
 			children = (
+				B50D693319753F9200A347DA /* Include */,
+				B50D695019753F9200A347DA /* PrimeSieve */,
 				B50D692419753EE500A347DA /* PrimeSieveM */,
 				B50D692319753EE500A347DA /* Products */,
 			);
@@ -67,6 +157,72 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B50D693319753F9200A347DA /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				B50D693419753F9200A347DA /* primesieve */,
+				B50D694E19753F9200A347DA /* primesieve.h */,
+				B50D6A161975614400A347DA /* primesieve_iterator.h */,
+				B50D694F19753F9200A347DA /* primesieve.hpp */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		B50D693419753F9200A347DA /* primesieve */ = {
+			isa = PBXGroup;
+			children = (
+				B50D693519753F9200A347DA /* bits.hpp */,
+				B50D693619753F9200A347DA /* Callback.hpp */,
+				B50D693719753F9200A347DA /* callback_t.hpp */,
+				B50D693819753F9200A347DA /* cancel_callback.hpp */,
+				B50D693919753F9200A347DA /* config.hpp */,
+				B50D693A19753F9200A347DA /* EratBig.hpp */,
+				B50D693B19753F9200A347DA /* EratMedium.hpp */,
+				B50D693C19753F9200A347DA /* EratSmall.hpp */,
+				B50D693D19753F9200A347DA /* iterator.hpp */,
+				B50D693E19753F9200A347DA /* littleendian_cast.hpp */,
+				B50D693F19753F9200A347DA /* ParallelPrimeSieve-lock.hpp */,
+				B50D694019753F9200A347DA /* ParallelPrimeSieve.hpp */,
+				B50D694119753F9200A347DA /* pmath.hpp */,
+				B50D694219753F9200A347DA /* PreSieve.hpp */,
+				B50D694319753F9200A347DA /* PrimeFinder.hpp */,
+				B50D694419753F9200A347DA /* PrimeGenerator.hpp */,
+				B50D694519753F9200A347DA /* PrimeSieve-lock.hpp */,
+				B50D694619753F9200A347DA /* PrimeSieve.hpp */,
+				B50D694719753F9200A347DA /* primesieve_error.hpp */,
+				B50D694919753F9200A347DA /* PushBackPrimes.hpp */,
+				B50D694A19753F9200A347DA /* SieveOfEratosthenes-inline.hpp */,
+				B50D694B19753F9200A347DA /* SieveOfEratosthenes.hpp */,
+				B50D694C19753F9200A347DA /* toString.hpp */,
+				B50D694D19753F9200A347DA /* WheelFactorization.hpp */,
+			);
+			path = primesieve;
+			sourceTree = "<group>";
+		};
+		B50D695019753F9200A347DA /* PrimeSieve */ = {
+			isa = PBXGroup;
+			children = (
+				B50D696519753F9200A347DA /* EratBig.cpp */,
+				B50D696619753F9200A347DA /* EratMedium.cpp */,
+				B50D696719753F9200A347DA /* EratSmall.cpp */,
+				B50D696819753F9200A347DA /* iterator.cpp */,
+				B50D696919753F9200A347DA /* ParallelPrimeSieve.cpp */,
+				B50D696A19753F9200A347DA /* popcount.cpp */,
+				B50D696B19753F9200A347DA /* PreSieve.cpp */,
+				B50D696C19753F9200A347DA /* PrimeFinder.cpp */,
+				B50D696D19753F9200A347DA /* PrimeGenerator.cpp */,
+				B50D696E19753F9200A347DA /* primesieve-api-c.cpp */,
+				B50D696F19753F9200A347DA /* primesieve-api.cpp */,
+				B50D697019753F9200A347DA /* PrimeSieve-nthPrime.cpp */,
+				B50D697119753F9200A347DA /* PrimeSieve.cpp */,
+				B50D697219753F9200A347DA /* primesieve_iterator.cpp */,
+				B50D6A1C1975628700A347DA /* test.cpp */,
+				B50D697319753F9200A347DA /* SieveOfEratosthenes.cpp */,
+				B50D697419753F9200A347DA /* WheelFactorization.cpp */,
+			);
+			path = PrimeSieve;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -74,6 +230,33 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50D698E19753F9200A347DA /* primesieve.h in Headers */,
+				B50D6A171975614400A347DA /* primesieve_iterator.h in Headers */,
+				B50D698719753F9200A347DA /* primesieve_error.hpp in Headers */,
+				B50D697C19753F9200A347DA /* EratSmall.hpp in Headers */,
+				B50D698519753F9200A347DA /* PrimeSieve-lock.hpp in Headers */,
+				B50D698D19753F9200A347DA /* WheelFactorization.hpp in Headers */,
+				B50D697B19753F9200A347DA /* EratMedium.hpp in Headers */,
+				B50D698A19753F9200A347DA /* SieveOfEratosthenes-inline.hpp in Headers */,
+				B50D698319753F9200A347DA /* PrimeFinder.hpp in Headers */,
+				B50D697E19753F9200A347DA /* littleendian_cast.hpp in Headers */,
+				B50D697D19753F9200A347DA /* iterator.hpp in Headers */,
+				B50D697519753F9200A347DA /* bits.hpp in Headers */,
+				B50D698119753F9200A347DA /* pmath.hpp in Headers */,
+				B50D698919753F9200A347DA /* PushBackPrimes.hpp in Headers */,
+				B50D698B19753F9200A347DA /* SieveOfEratosthenes.hpp in Headers */,
+				B50D698C19753F9200A347DA /* toString.hpp in Headers */,
+				B50D697619753F9200A347DA /* Callback.hpp in Headers */,
+				B50D698019753F9200A347DA /* ParallelPrimeSieve.hpp in Headers */,
+				B50D697719753F9200A347DA /* callback_t.hpp in Headers */,
+				B50D697A19753F9200A347DA /* EratBig.hpp in Headers */,
+				B50D697819753F9200A347DA /* cancel_callback.hpp in Headers */,
+				B50D698F19753F9200A347DA /* primesieve.hpp in Headers */,
+				B50D698619753F9200A347DA /* PrimeSieve.hpp in Headers */,
+				B50D698419753F9200A347DA /* PrimeGenerator.hpp in Headers */,
+				B50D697919753F9200A347DA /* config.hpp in Headers */,
+				B50D697F19753F9200A347DA /* ParallelPrimeSieve-lock.hpp in Headers */,
+				B50D698219753F9200A347DA /* PreSieve.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,7 +341,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50D69A919753F9200A347DA /* PreSieve.cpp in Sources */,
+				B50D69B019753F9200A347DA /* primesieve_iterator.cpp in Sources */,
+				B50D69B219753F9200A347DA /* WheelFactorization.cpp in Sources */,
+				B50D69A319753F9200A347DA /* EratBig.cpp in Sources */,
+				B50D69AA19753F9200A347DA /* PrimeFinder.cpp in Sources */,
+				B50D69AE19753F9200A347DA /* PrimeSieve-nthPrime.cpp in Sources */,
+				B50D69AD19753F9200A347DA /* primesieve-api.cpp in Sources */,
+				B50D69AB19753F9200A347DA /* PrimeGenerator.cpp in Sources */,
+				B50D69AF19753F9200A347DA /* PrimeSieve.cpp in Sources */,
+				B50D69A419753F9200A347DA /* EratMedium.cpp in Sources */,
 				B50D692D19753EE500A347DA /* PrimeSieveM.m in Sources */,
+				B50D6A1D1975628700A347DA /* test.cpp in Sources */,
+				B50D69AC19753F9200A347DA /* primesieve-api-c.cpp in Sources */,
+				B50D69A619753F9200A347DA /* iterator.cpp in Sources */,
+				B50D69A519753F9200A347DA /* EratSmall.cpp in Sources */,
+				B50D69A719753F9200A347DA /* ParallelPrimeSieve.cpp in Sources */,
+				B50D69B119753F9200A347DA /* SieveOfEratosthenes.cpp in Sources */,
+				B50D69A819753F9200A347DA /* popcount.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,10 +447,8 @@
 		B50D693119753EE500A347DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					"$(ARCHS_STANDARD_32_BIT)",
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = NO;
 				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
 				DEAD_CODE_STRIPPING = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -258,14 +456,22 @@
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PrimeSieveM/PrimeSieveM-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/Include/**",
+				);
 				INFOPLIST_FILE = "PrimeSieveM/PrimeSieveM-Info.plist";
 				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
 				LINK_WITH_STANDARD_LIBRARIES = NO;
 				MACH_O_TYPE = mh_object;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -273,10 +479,8 @@
 		B50D693219753EE500A347DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					"$(ARCHS_STANDARD_32_BIT)",
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = NO;
 				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
 				DEAD_CODE_STRIPPING = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -284,6 +488,11 @@
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PrimeSieveM/PrimeSieveM-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/Include/**",
+				);
 				INFOPLIST_FILE = "PrimeSieveM/PrimeSieveM-Info.plist";
 				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
@@ -291,7 +500,9 @@
 				MACH_O_TYPE = mh_object;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -315,6 +526,7 @@
 				B50D693219753EE500A347DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
