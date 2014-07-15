@@ -5,9 +5,11 @@ This is an iOS Universal Framework wrapper (based on Karl Stenerud's [templates]
 1. Clone this repo and open PrimeSieveM project using Xcode.
 2. Choose "Product | Archive" from main menu.
 3. Copy PrimeSieveM.framework from the popup Finder window to your project folder.
-4. Drop the framework in your project's Frameworks group and link it to your target.
+4. Drop the framework in your project's Frameworks group and link it to your target. You also need to link libstdc++.dylib as well (required by primesieve).
 5. Include the main header in your code:
+
    ```c
    #include <PrimeSieveM/primesieve.h>
    ```
+
 Enjoy!
